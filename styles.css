@@ -22,3 +22,42 @@ h1{
     border-radius: 10px;
     padding: 5px;
 }
+
+.tarjeta {
+    background-color: #f9f9f9;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 15px;
+    margin: 10px;
+    width: 250px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.tarjeta h3 {
+    margin: 0;
+    font-size: 20px;
+    color: #283618;
+}
+
+.tarjeta p {
+    margin: 5px 0;
+    font-size: 16px;
+}
+
+.par {
+    background-color: #ffcccc;  
+}
+
+.impar {
+    background-color: #cce5ff;  
+}
+
+.tarjeta strong {
+    font-weight: bold;
+}
+
+#output{
+    display: flex;
+    flex-wrap: wrap;       
+
+}
